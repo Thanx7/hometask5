@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test name="YandexDiskTest(failed)">
+    <classes>
+      <class name="com.epam.gomel.tat.test.YandexDiskTests">
+        <methods>
+          <include name="addOneMoreFileTest"/>
+          <include name="checkAttachment"/>
+          <include name="trashIsEmptyTest"/>
+          <include name="uploadAndCheckForRestore"/>
+          <include name="killDriver"/>
+          <include name="removeSeveralElementsAtOnceTest"/>
+          <include name="yandexDiskSaveAttachment"/>
+          <include name="trashTest"/>
+          <include name="restoredTest"/>
+          <include name="fxDriverSetup"/>
+          <include name="restoreTest"/>
+        </methods>
+      </class> <!-- com.epam.gomel.tat.test.YandexDiskTests -->
+    </classes>
+  </test> <!-- YandexDiskTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

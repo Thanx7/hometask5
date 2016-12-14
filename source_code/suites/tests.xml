@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests">
+  <test name="YandexDiskTest">
+    <classes>
+      <class name="com.epam.gomel.tat.test.YandexDiskTests"/>
+    </classes>
+  </test>
+  <test name="ChromeTest">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.epam.gomel.tat.test.Tests"/>
+    </classes>
+  </test>
+  <!-- <test name="FirefoxTest">
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.epam.gomel.tat.test.Tests"/>
+    </classes>
+  </test> -->
+</suite>

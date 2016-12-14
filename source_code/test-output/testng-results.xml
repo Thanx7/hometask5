@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Tests" duration-ms="311205" started-at="2016-12-14T10:04:17Z" finished-at="2016-12-14T10:09:28Z">
+    <groups>
+    </groups>
+    <test name="MailRuChromeTest" duration-ms="108962" started-at="2016-12-14T10:04:17Z" finished-at="2016-12-14T10:06:06Z">
+      <class name="com.epam.gomel.tests.mail.SendFullLetterTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.epam.gomel.tests.mail.SendFullLetterTest@38082d64]" name="login" is-config="true" duration-ms="7454" started-at="2016-12-14T13:04:42Z" finished-at="2016-12-14T13:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="sendFullLetterTest()[pri:0, instance:com.epam.gomel.tests.mail.SendFullLetterTest@38082d64]" name="sendFullLetterTest" duration-ms="13069" started-at="2016-12-14T13:04:50Z" finished-at="2016-12-14T13:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendFullLetterTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.mail.SendFullLetterTest@38082d64]" name="exit" is-config="true" duration-ms="725" started-at="2016-12-14T13:05:03Z" finished-at="2016-12-14T13:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.mail.SendFullLetterTest -->
+      <class name="com.epam.gomel.tests.mail.SendLetterWithoutRecipientTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.epam.gomel.tests.mail.SendLetterWithoutRecipientTest@dfd3711]" name="login" is-config="true" duration-ms="9101" started-at="2016-12-14T13:05:03Z" finished-at="2016-12-14T13:05:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="sendLetterWithoutRecipientTest()[pri:0, instance:com.epam.gomel.tests.mail.SendLetterWithoutRecipientTest@dfd3711]" name="sendLetterWithoutRecipientTest" duration-ms="8332" started-at="2016-12-14T13:05:12Z" finished-at="2016-12-14T13:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendLetterWithoutRecipientTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.mail.SendLetterWithoutRecipientTest@dfd3711]" name="exit" is-config="true" duration-ms="760" started-at="2016-12-14T13:05:21Z" finished-at="2016-12-14T13:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.mail.SendLetterWithoutRecipientTest -->
+      <class name="com.epam.gomel.tests.mail.CorrectLoginTest">
+        <test-method status="PASS" signature="correctLoginTest()[pri:0, instance:com.epam.gomel.tests.mail.CorrectLoginTest@73f792cf]" name="correctLoginTest" duration-ms="15591" started-at="2016-12-14T13:04:17Z" finished-at="2016-12-14T13:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctLoginTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.mail.CorrectLoginTest@73f792cf]" name="exit" is-config="true" duration-ms="813" started-at="2016-12-14T13:04:32Z" finished-at="2016-12-14T13:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.mail.CorrectLoginTest -->
+      <class name="com.epam.gomel.tests.mail.SaveAndDeleteDraftLetterTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.epam.gomel.tests.mail.SaveAndDeleteDraftLetterTest@26ba2a48]" name="login" is-config="true" duration-ms="7578" started-at="2016-12-14T13:05:40Z" finished-at="2016-12-14T13:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="saveLetterAsDraftTest()[pri:0, instance:com.epam.gomel.tests.mail.SaveAndDeleteDraftLetterTest@26ba2a48]" name="saveLetterAsDraftTest" duration-ms="10439" started-at="2016-12-14T13:05:48Z" finished-at="2016-12-14T13:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveLetterAsDraftTest -->
+        <test-method status="PASS" signature="deleteLetterFromDraftTest()[pri:0, instance:com.epam.gomel.tests.mail.SaveAndDeleteDraftLetterTest@26ba2a48]" name="deleteLetterFromDraftTest" duration-ms="3674" started-at="2016-12-14T13:05:58Z" depends-on-methods="com.epam.gomel.tests.mail.SaveAndDeleteDraftLetterTest.saveLetterAsDraftTest" finished-at="2016-12-14T13:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLetterFromDraftTest -->
+        <test-method status="PASS" signature="deleteLetterFromTrashTest()[pri:0, instance:com.epam.gomel.tests.mail.SaveAndDeleteDraftLetterTest@26ba2a48]" name="deleteLetterFromTrashTest" duration-ms="3052" started-at="2016-12-14T13:06:02Z" depends-on-methods="com.epam.gomel.tests.mail.SaveAndDeleteDraftLetterTest.deleteLetterFromDraftTest" finished-at="2016-12-14T13:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLetterFromTrashTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.mail.SaveAndDeleteDraftLetterTest@26ba2a48]" name="exit" is-config="true" duration-ms="820" started-at="2016-12-14T13:06:05Z" finished-at="2016-12-14T13:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.mail.SaveAndDeleteDraftLetterTest -->
+      <class name="com.epam.gomel.tests.mail.WrongLoginTest">
+        <test-method status="PASS" signature="wrongLoginTest()[pri:0, instance:com.epam.gomel.tests.mail.WrongLoginTest@2ed94a8b]" name="wrongLoginTest" duration-ms="8317" started-at="2016-12-14T13:04:33Z" finished-at="2016-12-14T13:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.mail.WrongLoginTest@2ed94a8b]" name="exit" is-config="true" duration-ms="724" started-at="2016-12-14T13:04:41Z" finished-at="2016-12-14T13:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.mail.WrongLoginTest -->
+      <class name="com.epam.gomel.tests.mail.SendLetterWithoutSubjectAndBodyTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.epam.gomel.tests.mail.SendLetterWithoutSubjectAndBodyTest@42d3bd8b]" name="login" is-config="true" duration-ms="7700" started-at="2016-12-14T13:05:22Z" finished-at="2016-12-14T13:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="sendLetterWithoutSubjectAndBodyTest()[pri:0, instance:com.epam.gomel.tests.mail.SendLetterWithoutSubjectAndBodyTest@42d3bd8b]" name="sendLetterWithoutSubjectAndBodyTest" duration-ms="10035" started-at="2016-12-14T13:05:29Z" finished-at="2016-12-14T13:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendLetterWithoutSubjectAndBodyTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.mail.SendLetterWithoutSubjectAndBodyTest@42d3bd8b]" name="exit" is-config="true" duration-ms="760" started-at="2016-12-14T13:05:39Z" finished-at="2016-12-14T13:05:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.mail.SendLetterWithoutSubjectAndBodyTest -->
+    </test> <!-- MailRuChromeTest -->
+    <test name="YandexDiskChromeTest" duration-ms="202107" started-at="2016-12-14T10:06:06Z" finished-at="2016-12-14T10:09:28Z">
+      <class name="com.epam.gomel.tests.yandexdisk.RemoveSeveralFilesTest">
+        <test-method status="PASS" signature="loginAndUpload()[pri:0, instance:com.epam.gomel.tests.yandexdisk.RemoveSeveralFilesTest@735b478]" name="loginAndUpload" is-config="true" duration-ms="17588" started-at="2016-12-14T13:08:52Z" finished-at="2016-12-14T13:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndUpload -->
+        <test-method status="PASS" signature="removeFileTest()[pri:0, instance:com.epam.gomel.tests.yandexdisk.RemoveSeveralFilesTest@735b478]" name="removeFileTest" duration-ms="17075" started-at="2016-12-14T13:09:10Z" finished-at="2016-12-14T13:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFileTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.yandexdisk.RemoveSeveralFilesTest@735b478]" name="exit" is-config="true" duration-ms="754" started-at="2016-12-14T13:09:27Z" finished-at="2016-12-14T13:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.yandexdisk.RemoveSeveralFilesTest -->
+      <class name="com.epam.gomel.tests.yandexdisk.RemoveFileTest">
+        <test-method status="PASS" signature="loginAndUpload()[pri:0, instance:com.epam.gomel.tests.yandexdisk.RemoveFileTest@531be3c5]" name="loginAndUpload" is-config="true" duration-ms="17561" started-at="2016-12-14T13:07:31Z" finished-at="2016-12-14T13:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndUpload -->
+        <test-method status="PASS" signature="removeFileTest()[pri:0, instance:com.epam.gomel.tests.yandexdisk.RemoveFileTest@531be3c5]" name="removeFileTest" duration-ms="17430" started-at="2016-12-14T13:07:48Z" finished-at="2016-12-14T13:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFileTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.yandexdisk.RemoveFileTest@531be3c5]" name="exit" is-config="true" duration-ms="758" started-at="2016-12-14T13:08:06Z" finished-at="2016-12-14T13:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.yandexdisk.RemoveFileTest -->
+      <class name="com.epam.gomel.tests.yandexdisk.WrongLoginTest">
+        <test-method status="PASS" signature="wrongLoginTest()[pri:0, instance:com.epam.gomel.tests.yandexdisk.WrongLoginTest@36f6e879]" name="wrongLoginTest" duration-ms="12510" started-at="2016-12-14T13:06:23Z" finished-at="2016-12-14T13:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.yandexdisk.WrongLoginTest@36f6e879]" name="exit" is-config="true" duration-ms="745" started-at="2016-12-14T13:06:36Z" finished-at="2016-12-14T13:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.yandexdisk.WrongLoginTest -->
+      <class name="com.epam.gomel.tests.yandexdisk.RestoreFileTest">
+        <test-method status="PASS" signature="loginAndUpload()[pri:0, instance:com.epam.gomel.tests.yandexdisk.RestoreFileTest@52af6cff]" name="loginAndUpload" is-config="true" duration-ms="17703" started-at="2016-12-14T13:08:06Z" finished-at="2016-12-14T13:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndUpload -->
+        <test-method status="PASS" signature="restoreFileTest()[pri:0, instance:com.epam.gomel.tests.yandexdisk.RestoreFileTest@52af6cff]" name="restoreFileTest" duration-ms="27516" started-at="2016-12-14T13:08:24Z" finished-at="2016-12-14T13:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreFileTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.yandexdisk.RestoreFileTest@52af6cff]" name="exit" is-config="true" duration-ms="761" started-at="2016-12-14T13:08:52Z" finished-at="2016-12-14T13:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.yandexdisk.RestoreFileTest -->
+      <class name="com.epam.gomel.tests.yandexdisk.DownloadFileTest">
+        <test-method status="PASS" signature="loginAndUpload()[pri:0, instance:com.epam.gomel.tests.yandexdisk.DownloadFileTest@3551a94]" name="loginAndUpload" is-config="true" duration-ms="17419" started-at="2016-12-14T13:07:05Z" finished-at="2016-12-14T13:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndUpload -->
+        <test-method status="PASS" signature="downloadFileTest()[pri:0, instance:com.epam.gomel.tests.yandexdisk.DownloadFileTest@3551a94]" name="downloadFileTest" duration-ms="7641" started-at="2016-12-14T13:07:22Z" finished-at="2016-12-14T13:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadFileTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.yandexdisk.DownloadFileTest@3551a94]" name="exit" is-config="true" duration-ms="728" started-at="2016-12-14T13:07:30Z" finished-at="2016-12-14T13:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.yandexdisk.DownloadFileTest -->
+      <class name="com.epam.gomel.tests.yandexdisk.CorrectLoginTest">
+        <test-method status="PASS" signature="correctLoginTest()[pri:0, instance:com.epam.gomel.tests.yandexdisk.CorrectLoginTest@54a097cc]" name="correctLoginTest" duration-ms="16498" started-at="2016-12-14T13:06:06Z" finished-at="2016-12-14T13:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctLoginTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.yandexdisk.CorrectLoginTest@54a097cc]" name="exit" is-config="true" duration-ms="805" started-at="2016-12-14T13:06:22Z" finished-at="2016-12-14T13:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.yandexdisk.CorrectLoginTest -->
+      <class name="com.epam.gomel.tests.yandexdisk.UploadFileTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.epam.gomel.tests.yandexdisk.UploadFileTest@5a61f5df]" name="login" is-config="true" duration-ms="15698" started-at="2016-12-14T13:06:36Z" finished-at="2016-12-14T13:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="uploadFileTest()[pri:0, instance:com.epam.gomel.tests.yandexdisk.UploadFileTest@5a61f5df]" name="uploadFileTest" duration-ms="12154" started-at="2016-12-14T13:06:52Z" finished-at="2016-12-14T13:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFileTest -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.epam.gomel.tests.yandexdisk.UploadFileTest@5a61f5df]" name="exit" is-config="true" duration-ms="759" started-at="2016-12-14T13:07:04Z" finished-at="2016-12-14T13:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.epam.gomel.tests.yandexdisk.UploadFileTest -->
+    </test> <!-- YandexDiskChromeTest -->
+  </suite> <!-- Tests -->
+</testng-results>

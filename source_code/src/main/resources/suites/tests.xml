@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests">
+  <test name="MailRuChromeTest">
+    <classes>
+      <class name="com.epam.gomel.tests.mail.CorrectLoginTest"/>
+      <class name="com.epam.gomel.tests.mail.WrongLoginTest"/>
+      <class name="com.epam.gomel.tests.mail.SendFullLetterTest"/>
+      <class name="com.epam.gomel.tests.mail.SendLetterWithoutRecipientTest"/>
+      <class name="com.epam.gomel.tests.mail.SendLetterWithoutSubjectAndBodyTest"/>
+      <class name="com.epam.gomel.tests.mail.SaveAndDeleteDraftLetterTest"/>
+    </classes>
+  </test>
+  <test name="YandexDiskChromeTest">
+    <classes>
+      <class name="com.epam.gomel.tests.yandexdisk.CorrectLoginTest"/> 
+	  <class name="com.epam.gomel.tests.yandexdisk.WrongLoginTest"/>
+      <class name="com.epam.gomel.tests.yandexdisk.UploadFileTest"/>
+      <class name="com.epam.gomel.tests.yandexdisk.DownloadFileTest"/>
+      <class name="com.epam.gomel.tests.yandexdisk.RemoveFileTest"/>
+      <class name="com.epam.gomel.tests.yandexdisk.RestoreFileTest"/>
+      <class name="com.epam.gomel.tests.yandexdisk.RemoveSeveralFilesTest"/>
+    </classes>
+  </test>
+</suite>
